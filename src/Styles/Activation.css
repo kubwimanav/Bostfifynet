@@ -1,0 +1,83 @@
+.activation-page {
+  margin: auto;
+  width: 60%;
+  height: fit-content;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  margin-top: 7rem;
+  margin-left: 18rem;
+  position: relative;
+  background-color: white;
+  padding: 50px;
+  z-index: 2;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.instructions-section {
+  width: 40%;
+  margin-top: 1rem;
+  /* background-color: aqua; */
+  color: black;
+}
+
+.payment-sectionn {
+  width: 60%;
+  color: black;
+  /* margin-left: 10%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.button1 {
+  background-color: #fee60c;
+  color: black;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  margin-left: 7rem;
+}
+
+.confirmation-section.success {
+  color: green;
+}
+
+.confirmation-section.failed {
+  color: red;
+}
+.close {
+  position: absolute;
+  z-index: 4;
+
+  margin-top: 7rem;
+  margin-left: 25rem;
+}
+
+.payment-formm {
+  width: 90%;
+  color: black;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+#inputt1 {
+  width: 80%;
+}
+#select-payment-method {
+  width: 60%;
+  padding: 0.3rem;
+  margin-left: 7rem;
+}

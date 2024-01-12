@@ -1,0 +1,156 @@
+ .VideoFilterContainer 
+ {
+display:flex;
+
+  margin: 0 auto;
+padding: 0px 0px 50px 30px;
+  padding-left:30px;
+
+   flex-direction: column;
+    
+ }
+.videofilterhomess{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 14px;
+}
+  
+
+.filtermenu{
+   display: flex;
+  justify-content: center;
+  margin: 20px 0; 
+}
+ 
+
+  .filterhome-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #191943;
+    color: #fff;
+    border-radius: 5px;
+
+  
+  }
+.youtuber-singdle-video-cardss{
+    width: fit-content;
+}
+
+.videolistfilter{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border:1px solid red;
+  width:20px  ;
+}
+  
+ .youtuber-single-videocard{
+  width: 270px;
+  height: 270px;
+  
+ box-shadow: 0px 1px 0px 1px #ccc;
+ border-radius: 10px;
+}
+
+.youtuber-single-videocard:hover {
+  transition: ease 1.05s;
+  transform: scale(0.8) ;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.youtuber-single-videocard #detail
+{
+  font-family: sans-serif; 
+  color: var(--first-bg-color);
+  margin-left: 1rem;
+  
+}
+.youtuber-single-videocard #detail-title
+{
+  margin-top: 1rem;
+  margin-left: 1rem;
+ font-family: sans-serif; 
+ color: var(--first-bg-color);
+ font-weight: bold;
+
+
+} 
+
+
+@media (max-width:980px) {
+  .videofilterhomess{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}}
+
+@media (max-width:768px) {
+  .videofilterhomess{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.filtermenu{
+   display: flex;
+   gap: 5px;
+  justify-content: center;
+  margin: 20px 0; 
+}
+ .filterhome-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #191943;
+    color: #fff;
+    border-radius: 5px;
+    width: 50%;
+
+  
+  }
+   .VideoFilterContainer 
+ {
+  padding-left:42px;
+    
+ }
+ .VideoFilterContainer h2{
+  margin-right: 90px;
+ }
+}
+
+
+@media (max-width:420px) {
+  .videofilterhomess{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 14px;
+}
+.filtermenu{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+  justify-content: center;
+  margin: 20px 0; 
+}
+ .filterhome-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #191943;
+    color: #fff;
+    border-radius: 5px;
+    width: 70%;
+
+  
+  }
+   .VideoFilterContainer 
+ {
+  padding-left:42px;
+    
+ }
+}

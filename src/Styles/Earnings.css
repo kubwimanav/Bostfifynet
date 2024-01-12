@@ -1,0 +1,18 @@
+.earnings-cont{
+  display: flex;
+  flex-direction: column;
+  background-color: paleturquoise;
+  margin-left: 0;
+  padding-top: 1rem;
+  /* margin: 5rem auto 0 0; */
+  position: relative;
+  color: red;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* border-top: 1px solid lightgray; */
+  height: fit-content;
+  width: 100%;
+  height: 32.2rem;
+  box-shadow: 0 2px 4px rgba(0.8, 0, 0, 0.6);
+}

@@ -1,0 +1,102 @@
+:root {
+  --first-bg-color: #191943;
+  --skin-color: #fffdd0;
+  --text-color: #8c8a95;
+  --white-bg-color: #fff;
+}
+
+.youtuber-sideBar {
+  background-color: var(--white-bg-color);
+  box-shadow: 0px 0px 10px rgba(98, 95, 95, 0.4);
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5rem;
+  width: 220px;
+  z-index: 1;
+  height: 90vh;
+}
+.youtuber-sideBar .log {
+  display: flex;
+  flex-direction: row;
+  width: 3em;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+.sideBarLinks,
+.sidebarBottomLinks {
+  margin-left: 30px;
+}
+.sideBarLinks ul,
+.sidebarBottomLinks ul {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+.sideBarLinks ul li,
+.sidebarBottomLinks ul li {
+  list-style: none;
+  margin: 20px 0;
+  position: relative;
+  color: #8c8a95;
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid rgb(128, 62, 0); */
+}
+.sideBarLinks ul li a,
+.sidebarBottomLinks ul li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 2rem;
+  align-items: center;
+  font-size: 18px;
+  color: var(--first-bg-color);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.sideBarLinks ul li a::before,
+.sidebarBottomLinks ul li a::before {
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: -20px;
+  right: 3px;
+  width: 0px;
+  height: 20px;
+  background: var(--skin-color);
+  border-radius: 50%;
+}
+.sideBarLinks ul li:hover a::before,
+.sidebarBottomLinks ul li:hover a::before {
+  width: 20px;
+  transition: all 0.3s;
+}
+.sideBarLinks ul li.active a::before,
+.sidebarBottomLinks ul li.active a::before {
+  width: 10px;
+  transition: all 0.3s;
+}
+
+.sideBarLinks ul li.active a,
+.sidebarBottomLinks ul li.active a {
+  color: var(--skin-color);
+}
+
+.sideBarLinks ul li:hover a,
+.sidebarBottomLinks ul li:hover a {
+  color: var(--skin-color);
+}
+
+.sidebarBottomLinks {
+  margin-top: auto;
+}
+@media only screen and (max-width: 525px) {
+  .sideBarr {
+    min-width: 68px;
+  }
+}

@@ -1,0 +1,25 @@
+:root {
+  --first-bg-color: #191943;
+  --skin-color: #fee60c;
+  --text-color: #8c8a95;
+  --white-bg-color: #fff;
+}
+.history-section {
+  position: absolute;
+  top: 90px;
+  left: 220px;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+  flex: 1;
+  background-color: var(--white-bg-color);
+  width: 100;
+  padding: 5rem;
+}
+
+
+

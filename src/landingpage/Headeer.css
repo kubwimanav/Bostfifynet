@@ -1,0 +1,67 @@
+.headeer {
+  width: 100%;
+   background-color: #191942;
+  position: fixed;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #fee60c;
+}
+
+.header-buttonn {
+  margin-right: 5%;
+  display: flex;
+  gap: 20px;
+}
+
+.heade-button:hover {
+
+  background-color: white;
+  color: black;
+}
+
+.heade-button {
+  width: 100px;
+  border: none;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  color: #191942;
+  background-color: #fee60c;
+}
+.headeer-logo {
+  margin-left: 2%;
+  display: flex;
+  gap: 300px;
+}
+
+.watch-logob {
+
+  color: white;
+}
+
+
+@media (max-width: 780px) {
+  .headeer-logo {
+    margin-left: 2%;
+    display: flex;
+    gap: 30px;
+  }
+  .search-input {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .headeer-logo {
+    margin-left: 2%;
+    display: flex;
+    gap: 30px;
+  }
+  .search-input {
+    display: none;
+  }
+  .heade-button {
+    width: 75px;
+    height: 30px;
+  }
+}

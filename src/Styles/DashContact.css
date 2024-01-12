@@ -1,0 +1,30 @@
+.contact-table-container {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2rem;
+}
+.contact-button1 {
+  display: flex;
+  gap: 10px;
+}
+.pages1 {
+  color: #191943;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 1rem;
+  /* width: 5rem; */
+  margin: auto;
+  align-items: center;
+}
+
+.contBtns {
+  background-color: #191943;
+  border: none;
+  padding: 0.5rem 1rem;
+}

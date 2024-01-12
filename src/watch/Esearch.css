@@ -1,0 +1,11 @@
+.esearch{
+    background-color: white;
+    margin-top: 60px;
+    min-height: 89vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50vh;
+    padding: 25px 20px 20px 20px;
+    position: fixed;
+   border-right: solid black 1px;
+} 

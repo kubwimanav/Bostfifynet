@@ -1,0 +1,151 @@
+:root {
+  --first-bg-color: #191943;
+  --skin-color: #fee60c;
+  --text-color: #ccc;
+  --sec-bg-color: #fff;
+}
+.uploadVideo-section {
+  top: 90px;
+  left: 220px;
+  height: 600px;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: var(--sec-bg-color);
+  width: 100;
+}
+
+.uploadVideo-form {
+  width: 80%;
+  height: 700px;
+  padding: 5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.uploadDital {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 2rem;
+
+}
+.uploadVideo-form span {
+  display: flex;
+  flex-direction: row;
+}
+.upload-Right,
+.upload-Left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: larger;
+  font-weight: bold;
+}
+.upload-Right input {
+  height: 50px;
+}
+.upload-Left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.uploadDital label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--first-bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.uploadDital input,
+.uploadDital textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 0.1px solid #ccc;
+}
+
+.form-button {
+  display: flex;
+  flex-direction: row;
+}
+.uploadbutton {
+  background-color: var(--first-bg-color);
+  padding: 1rem;
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.uploadbutton:hover {
+  background-color: var(--skin-color);
+  color: var(--first-bg-color);
+}
+
+.youtuberinput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+.youtubertextarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.youtuber-button {
+  background-color: var(--skin-color);
+  color: var(--first-bg-color);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 10px;
+  height: fit-content;
+  gap: 1rem;
+  background-color: var(--sec-bg-color);
+  margin-bottom: 0rem;
+}
+
+.checkbox label {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  align-content: start;
+  align-items: center;
+  color: var(--first-bg-color);
+
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.checkbox label span {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.checkbox label span p {
+  display: flex;
+  flex-wrap: nowrap;
+  color: var(--first-bg-color);
+  width: fit-content;
+}

@@ -1,0 +1,86 @@
+.super-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  width: 100%;
+}
+.topNav {
+  height: 10%;
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  padding: auto;
+  text-align: center;
+  border-bottom: #fee60c 1px solid;
+}
+.logo {
+  display: flex;
+  padding-left: 1rem;
+}
+.menu-icon {
+  font-size: 2.5rem;
+  margin-left: 6.5rem;
+}
+
+.notification {
+  width: 15rem;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-left: 58rem;
+}
+.not-icon {
+  font-size: 2rem;
+}
+.pic {
+  width: 3.4rem;
+  height: 3rem;
+  border-radius: 100%;
+}
+
+.sideNav {
+  height: 100%;
+  width: 13%;
+  margin-top: 4.8%;
+  align-items: top;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0.8, 0, 0, 0.6);
+  padding-top: 0;
+  justify-content: space-between;
+  padding-left: 2rem;
+}
+
+.uplinks {
+  margin-top: 0;
+  height: 50%;
+}
+.downlinks {
+  height: 40%;
+  margin-top: -4rem;
+}
+
+.navLink {
+  display: flex;
+  margin-top: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navLink1 {
+  display: flex;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+.linkName {
+  color: #191943;
+  margin-left: 1rem;
+}

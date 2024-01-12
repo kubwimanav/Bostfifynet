@@ -1,0 +1,64 @@
+:root {
+    --first-bg-color: #191943;
+    --skin-color: #fee60c;
+    --text-color: #8c8a95;
+    --sec-bg-color: #fff;
+}
+.card_main
+{
+    /* background-color: #ccc; */
+    color: var(--first-bg-color);
+    border: 1px solid var(--first-bg-color);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+ 
+}
+.card_main:hover {
+    transition: all 0.9s ease;
+    transform: scale(1.1);
+    /* Adjust the scale factor as needed */
+}
+.card_main_name h2{
+    color: var(--first-bg-color);
+}
+.card_main_icon i 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    /* background-color: #191943; */
+    color: var(--first-bg-color);
+
+}
+.card_main_icon i span
+{
+    color: var(--first-bg-color);
+}
+.card_main_icon 
+{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid var(--first-bg-color); */
+    border-radius: 10px;
+    padding: 10px;
+    
+   
+}
+.card_main_button 
+{
+    /* border: 1px solid red; */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card_main_button a
+{
+    color: var(--first-bg-color);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    
+}

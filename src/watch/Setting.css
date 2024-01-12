@@ -1,0 +1,125 @@
+.settingss{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 130px 0px 100px 130px;
+}
+
+.setting{
+    display: flex;
+     gap: 50px;
+}
+
+
+.setting-detail{
+    display: flex;
+    gap: 90px;
+}
+.setting-details{
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+}
+.setting-parag{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.setting-d{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.setting-d b{
+    font-size: 13px;
+    color: #aaa04a;
+}
+.setting-d p{
+    font-size: 13px;
+}
+.setting-imag{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+.profile-icons{
+    
+    transform: translatey(-40px);
+    color: #aaa04a;
+    margin-left: 13px;
+}
+.profile-icons h6{
+    font-size: 10px;
+    line-height: 0;
+}
+.profile-icon{
+    line-height: 0;
+    font-size: 25px;
+    background-color: #aaa04a;
+    border-radius: 10px ;
+
+}
+.setting-button{
+    padding: 9px 0px 9px 0px;
+    border-radius: 5px;
+    width: 50vh;
+    border: none;
+    background-color:#FEE60C;
+    color: #191942;
+}
+
+.setting-input{
+    padding: 9px 0px 9px 9px;
+    border-radius: 5px;
+    width: 50vh;
+    height: 10px;
+    border: 1px solid black;
+    }
+
+.setting-button:hover{
+    background-color: #191942;
+    color: white;
+}
+.setting-images{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.settings-buttons{
+    display: flex;
+    gap: 90px;
+}
+
+@media (max-width:780px) {
+
+    .setting{
+    display: flex;
+    gap: 100px;
+    padding: 100px 10px 20px 20px;
+    }
+ .setting-d b
+    {
+        font-size: 16px;
+        color: #aaa04a;
+    }
+    .setting-d p{
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width:420px) {
+
+    .setting{
+        margin-top: 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0px;
+}
+.setting-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+}

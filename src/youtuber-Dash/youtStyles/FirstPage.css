@@ -1,0 +1,124 @@
+:root {
+  --first-bg-color: #191943;
+  --skin-color: #fee60c;
+  --text-color: #8c8a95;
+  --white-bg-color: #fff;
+}
+
+.initialDashPage {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1rem;
+  justify-content: center;
+  z-index: 0;
+}
+#iconyt {
+  font-size: 2rem;
+}
+
+.videeos1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 10rem;
+}
+
+.dash-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  justify-content: start;
+  align-items: start;
+  color: #191943;
+  width: 20%;
+}
+.dash-card .num-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+  color: var(--first-bg-color);
+}
+
+.dash-highlight {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: fit-content;
+}
+
+header {
+  background-color: var(--first-bg-color);
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.initialDashPage h2 {
+  color: #191943;
+}
+
+.initialDashPage p {
+  color: #6c757d;
+}
+
+.chart-container {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.youtuber-video-card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 98%;
+  gap: 2rem;
+  scroll-behavior: smooth;
+
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+}
+.youtuber-single-video-card {
+  width: 300px;
+  height: 350px;
+
+  box-shadow: 0px 1px 0px 1px #ccc;
+  border-radius: 20px;
+}
+
+.youtuber-single-video-card:hover {
+  transition: ease 1.05s;
+  transform: scale(0.8);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.youtuber-single-video-card #detail {
+  font-family: sans-serif;
+  color: var(--first-bg-color);
+  margin-left: 1rem;
+}
+.youtuber-single-video-card #detail-title {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  color: var(--first-bg-color);
+  font-weight: bold;
+}

@@ -1,0 +1,127 @@
+.footer {
+  display: grid;
+
+  grid-gap: 45px;
+  background-color: #191942;
+  padding: 50px 20px 50px 20px;
+
+  border-top: #203041 solid 2px;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #191943;
+  padding-bottom: 5px;
+}
+.footer-class {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer-class b {
+  font-size: 16px;
+}
+.watch-logo {
+  display: flex;
+}
+.watch-g {
+  color: #fee60c;
+}
+.footer-contact p {
+
+  font-size: 15px;
+
+  color: rgb(169, 164, 164);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-button {
+  width: 90px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  color: #191942;
+  background-color: #fee60c;
+}
+.footer-subscribe {
+  display: flex;
+  gap: 3px;
+}
+.footer-icon {
+  color: #d8d8d8;
+  display: flex;
+  gap: 30px;
+}
+.footer-subscribe input {
+   width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  color: #191943;
+  border-radius: 3px;
+}
+.footer-sub-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.copy-right {
+
+  font-size: 16px;
+  margin-left: 40%;
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 1000px) {
+  .footer-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: space-around;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 5px;
+  }
+  @media (max-width: 780px) {
+    .footer-div {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      justify-content: space-around;
+      border-bottom: 1px solid #d8d8d8;
+      padding-bottom: 5px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .footer-div {
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    justify-content: space-around;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 5px;
+  }
+  .copy-right {
+
+  font-size: 16px;
+  margin-left: 10%;
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  display: grid;
+
+  grid-gap: 45px;
+  background-color: #191942;
+  padding: 50px 20px 50px 20px;
+
+  border-top: #203041 solid 2px;
+}
+}

@@ -1,0 +1,29 @@
+.video-cards-container {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  align-items: center;
+  text-align: center;
+}
+.video-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+}
+#det {
+  color: #191943;
+  text-align: start;
+  margin-left: 3.5rem;
+}
+.video-item {
+  margin: 1rem 1rem;
+}
+#det {
+  margin: auto;
+}

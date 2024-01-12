@@ -1,0 +1,141 @@
+:root {
+    --first-bg-color: #191943;
+    --skin-color: #fee60c;
+    --text-color: #ccc;
+    --sec-bg-color:#fff;
+}
+.payment-section {
+    position: absolute;
+    top: 90px;
+    left: 220px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sec-bg-color);
+}
+
+.payment-form {
+    width: 70px;
+    margin: 20px ;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.payment-form .card-input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    
+}
+
+.payment-info, .card-info
+{
+    width: 100%;
+    box-shadow: 0px 2px 1px 1px transparent;   
+   
+}
+.payment-info span .icon-style
+{
+    color: var(--first-bg-color);
+    background-color: var(--first-bg-color);
+   
+}
+.payment-info span,
+.card-info span
+{
+display: flex;
+flex-direction: row;
+justify-content: start;
+gap: 1rem;
+align-items: center;
+margin-bottom: 1rem;
+font-family: serif;
+font-weight: bold;
+font-size: larger;
+}
+.payment-info h3,
+.card-info h3
+{
+color: var(--first-bg-color);
+text-align: center;
+text-decoration:underline var(--skin-color);
+}
+
+.card-input label {
+    display: block;
+    color: var(--first-bg-color);
+}
+.card-info,.payment-info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.payment-info label
+{
+    margin-top: 0.51rem;
+}
+
+.card-input input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+} 
+
+.payment-buttonn{
+    background-color: var(--skin-color);
+    color: var(--first-bg-color);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+}
+.form-button{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+}
+
+.payment-buttonn:hover {
+    background-color: var(--first-bg-color);
+    color: var(--sec-bg-color);
+
+}
+
+ 
+#form-button {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+
+    /* border: 1px solid red; */
+}
+
+#form-button .uploadbutton {
+    background-color: var(--skin-color);
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+ #form-button .uploadbutton:hover {
+    background-color: var(--first-bg-color);
+    color: var(--sec-bg-color);
+
+}
+

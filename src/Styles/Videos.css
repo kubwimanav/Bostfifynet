@@ -1,0 +1,54 @@
+.video-contt {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1rem;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: fit-content;
+  width: 97%;
+  max-height: fit-content;
+  box-shadow: 0 2px 4px rgba(51, 45, 74, 0.6);
+}
+
+.videeo1 {
+  display: flex;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-item1 {
+  margin-bottom: 1rem;
+  width: 30%;
+  border: 1px solid rgb(43, 41, 41);
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  text-align: start;
+}
+
+.filter-buttons {
+  justify-content: space-between;
+  display: flex;
+  width: 50%;
+  margin-left: -30rem;
+}
+.btnfilter {
+  font-weight: bolder;
+  width: 10rem;
+  color: black;
+  background-color: #fee60c;
+}
+
+.video-cards-container1 {
+  display: grid;
+  margin-left: 13%;
+  grid-template-columns: repeat(3, 1fr);
+  /* background-color: #fee60c; */
+}
+
+.details1 {
+  display: flex;
+}

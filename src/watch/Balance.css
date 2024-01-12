@@ -1,0 +1,187 @@
+.balances {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  width: 85vw;
+  height: 100vh;
+}
+.withdInfo {
+  font-size: 1.1rem;
+  color: #191943;
+  font-weight: 400;
+}
+
+.closeModal {
+  position: absolute;
+  background-color: white;
+  border: none;
+  margin-left: 40rem;
+  margin-top: -20rem;
+}
+.withdescr {
+  margin-bottom: 3rem;
+  margin-left: -1rem;
+}
+
+.withdescr h1 {
+  color: #191943;
+  margin-bottom: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  box-shadow: 0px 0px 1px;
+  border-radius: 1rem;
+}
+.balance3 {
+  display: grid;
+}
+.balance-image {
+  width: 40px;
+  height: 40px;
+}
+.balance1 {
+  display: flex;
+  gap: 1px;
+}
+
+.balance2 {
+  display: flex;
+  gap: 60px;
+}
+
+.balance-select {
+  color: #191942;
+  width: 24%;
+}
+.balance3 {
+  display: grid;
+  grid-gap: 20px;
+}
+.balance-button {
+  padding: 9px;
+  width: 49vh;
+  border: none;
+  border-radius: 5px;
+  color: #191942;
+  background-color: #fee60c;
+}
+
+.balance-button:hover {
+  background-color: #191942;
+  color: white;
+}
+
+.balence-input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  color: #191943;
+  border-radius: 3px;
+}
+.balence-inputt {
+  color: #191942;
+  display: grid;
+  grid-gap: 5px;
+}
+.balance-withdraw {
+  display: grid;
+  grid-gap: 10px;
+}
+.balance-butto {
+  width: 100%;
+  border: none;
+  padding: 5px;
+}
+
+.balanc {
+  margin-top: 50px;
+  margin-left: 55vh;
+  display: grid;
+  width: 50%;
+  height: 40%;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0px 0px 1px;
+  border-radius: 10px;
+}
+.balanc-button {
+  background-color: #fee60c;
+  color: #191943;
+  font-weight: bold;
+  font-size: 1.1rem;
+  width: 60%;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+.balanc-button:hover {
+  background-color: #191942;
+  color: white;
+}
+.balenc-inputt {
+  width: 29.5rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  color: #191943;
+  border-radius: 3px;
+}
+
+@media (max-width: 420px) {
+  .balanc-button {
+    width: 220px;
+  }
+  .balenc-inputt {
+    width: 220px;
+  }
+
+  .balances {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .balanc {
+    margin-left: 0vh;
+    width: 33vh;
+  }
+  .balance {
+    transform: translatex(0vh);
+    transform: translatey(-300px);
+    width: 37vh;
+    display: grid;
+    grid-gap: 20px;
+    padding: 50px;
+    box-shadow: 0px 0px 1px;
+    border-radius: 10px;
+  }
+  .balence-input {
+    width: 250px;
+  }
+  .balance-button {
+    width: 250px;
+  }
+  .balance2 {
+    display: flex;
+    gap: 15px;
+  }
+}

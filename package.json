@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -28,7 +29,6 @@
     "react-router-dom": "^6.20.0",
     "react-youtube": "^10.1.0",
     "recharts": "^2.10.3",
-    "rollup": "^4.9.5",
     "styled-components": "^6.1.7"
   },
   "devDependencies": {
